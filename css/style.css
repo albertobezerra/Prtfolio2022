@@ -695,7 +695,7 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #ffbf00;
+    background-color: #F0616E;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;
@@ -940,6 +940,42 @@ footer img {
 
 .top-bar2 p a:hover,
 .top-bar2 p a:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.top-bar3 {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01b.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01b.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+.top-bar3 h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #999;
+    line-height: 50px;
+}
+
+.top-bar3 p {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #777;
+}
+
+.top-bar3 p a {
+    color: #777;
+}
+
+.top-bar3 p a:hover,
+.top-bar3 p a:focus {
     color: #555;
     text-decoration: none;
 }
