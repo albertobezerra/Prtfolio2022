@@ -63,6 +63,18 @@ a {
     font-size: 20px !important;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #F0616E; 
+  }
+
+
 
 /* typography
 ==================================================*/
